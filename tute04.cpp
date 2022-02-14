@@ -24,12 +24,14 @@ int fact(int num)
     else
     {
         for (i = 1; i <= num; i++)
-    {
+        {
             k = k * i;
-	}
+	      }
+       return (k);
     }
-    return (k);
 }
+
+
 long nCr(int n, int r)
 {
   int ncr_var;
